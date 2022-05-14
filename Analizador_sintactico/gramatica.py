@@ -58,7 +58,7 @@ gramatica = {
     'REGISTRO':         [['tk_llave_izquierda','VAR','tk_llave_derecha']],
     'TIPOS':            [['id','tk_dos_puntos','RMT','TIPOS'],['epsilon']],
     'SENTENCIAS':       [['id','tk_dos_puntos','EXPRE','SENTENCIAS'],
-                        ['si','tk_parentesis_izquierdo','EXPRECON','tk_parentesis_derecho','tk_llave_izquierda','SENTENCIAS','ELSE','tk_llave_derecha','SENTENCIAS'],
+                        ['si','tk_parentesis_izquierdo','EXPRE','tk_parentesis_derecho','tk_llave_izquierda','SENTENCIAS','ELSE','tk_llave_derecha','SENTENCIAS'],
                         ['mientras', 'tk_parentesis_izquierdo','EXPRE', 'tk_parentesis_derecho', 'tk_llave_izquierda', 'SENTENCIAS', 'tk_parentesis_derecho','SENTENCIAS'],
                         ['repetir', 'SENTENCIAS', 'hasta', 'tk_parentesis_izquierdo', 'EXPRE', 'tk_parentesis_derecho', 'SENTENCIAS'],
                         ['eval', 'tk_llave_izquierda','CASO', 'sino', 'SENTENCIAS', 'tk_llave_derecha', 'SENTENCIAS'],
